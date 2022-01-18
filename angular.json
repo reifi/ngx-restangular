@@ -30,7 +30,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -42,30 +41,24 @@
                   "with": "environments/environment.prod.ts"
                 }
               ]
-            }
-          }
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-restangular-demo:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "ngx-restangular-demo:build:production"
+            },
+            "development": {
+              "browserTarget": "ngx-restangular-demo:build:development"
             }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "demo/tsconfig.app.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
+          },
+          "defaultConfiguration": "development"
         }
       }
     },
@@ -76,7 +69,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-restangular/tsconfig.lib.json",
             "project": "projects/ngx-restangular/ng-package.json"
@@ -93,18 +86,6 @@
             "main": "projects/ngx-restangular/src/test.ts",
             "tsConfig": "projects/ngx-restangular/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-restangular/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-restangular/tsconfig.lib.json",
-              "projects/ngx-restangular/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }

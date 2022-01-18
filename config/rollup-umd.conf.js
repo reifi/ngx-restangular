@@ -12,7 +12,6 @@ export default {
       '@angular/common': 'ng.common',
       '@angular/common/http': 'ng.common.http',
       'lodash': '_',
-      'core-js/fn/object': 'core.Object',
       'rxjs/Observable': 'Rx.Observable',
       'rxjs/BehaviorSubject': 'Rx.BehaviorSubject',
     },

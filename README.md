@@ -1,3 +1,9 @@
+# ngx-restangular fork for Angular v13
+
+* Removed core-js dependency and therefore CommonJS module dependency. 
+  * No more IE support or polyfill in ng13 AOT anyway
+
+
 # Ngx-restangular. Maintained by [2muchcoffee](https://2muchcoffee.com/).
 
 This project is the follow-up of the [Restangular](https://github.com/mgonto/restangular/). Ngx-restangular is an Angular 2+ service that simplifies common GET, POST, DELETE, and UPDATE requests with a minimum of client code.
