@@ -1,6 +1,6 @@
 {
   "name": "ngx-restangular",
-  "version": "7.0.0-reifi",
+  "version": "8.0.0-reifi",
   "description": "ngx-restangular",
   "repository": {
     "type": "git",
@@ -51,10 +51,10 @@
   },
   "homepage": "https://github.com/2muchcoffeecom/ngx-restangular#readme",
   "peerDependencies": {
-    "@angular/common": "^13.0.0",
-    "@angular/core": "^13.0.0",
-    "@angular/platform-browser": "^13.0.0",
-    "rxjs": "^6.5"
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular/platform-browser": "^14.0.0",
+    "rxjs": "^7.5"
   },
   "dependencies": {
     "@types/lodash": "^4.14.62"

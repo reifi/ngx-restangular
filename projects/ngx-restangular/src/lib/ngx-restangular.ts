@@ -134,7 +134,7 @@ export class Restangular {
     private injector: Injector,
     private http: RestangularHttp
   ) {
-    this.provider = new providerConfig(http);
+    this.provider = new providerConfig(this.http);
     const element = this.provider.$get();
     Object.assign(this, element);
 
