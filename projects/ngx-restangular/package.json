@@ -1,64 +1,15 @@
 {
   "name": "ngx-restangular",
-  "version": "9.0.0-reifi",
+  "version": "16.0.0-reifi",
   "description": "ngx-restangular",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/2muchcoffeecom/ngx-restangular.git"
-  },
-  "keywords": [
-    "ng2-rest",
-    "ng2-restangular",
-    "ngx-restangular",
-    "angular2-restangular",
-    "angular4-restangular",
-    "angular5-restangular",
-    "angular6-restangular",
-    "angular7-restangular",
-    "angular8-restangular",
-    "angular9-restangular",
-    "angular10-restangular",
-    "angular2-rest",
-    "angular4-rest",
-    "angular5-rest",
-    "angular6-rest",
-    "angular7-rest",
-    "angular8-rest",
-    "angular9-rest",
-    "angular10-rest",
-    "restangular",
-    "angular 2 restangular",
-    "angular 4 restangular",
-    "angular 5 restangular",
-    "angular 6 restangular",
-    "angular 7 restangular",
-    "angular 8 restangular",
-    "angular 9 restangular",
-    "angular 10 restangular",
-    "angular 2 rest",
-    "angular 4 rest",
-    "angular 5 rest",
-    "angular 6 rest",
-    "angular 7 rest",
-    "angular 8 rest",
-    "angular 9 rest",
-    "angular 10 rest"
-  ],
-  "author": "logvinoleg89 <logvinoleg89@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/2muchcoffeecom/ngx-restangular/issues"
-  },
-  "homepage": "https://github.com/2muchcoffeecom/ngx-restangular#readme",
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "@angular/platform-browser": "^15.0.0",
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/platform-browser": "^16.0.0",
     "rxjs": "^7.5"
   },
   "dependencies": {
     "@types/lodash": "^4.14.62"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

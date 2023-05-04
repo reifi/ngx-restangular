@@ -1,4 +1,4 @@
-# ngx-restangular fork for Angular v15
+# ngx-restangular fork for Angular v16
 
 * Removed core-js dependency and therefore CommonJS module dependency. 
   * No more IE support or polyfill since ng13 AOT anyway
