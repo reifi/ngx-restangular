@@ -52,10 +52,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-restangular-demo:build:production"
+              "buildTarget": "ngx-restangular-demo:build:production"
             },
             "development": {
-              "browserTarget": "ngx-restangular-demo:build:development"
+              "buildTarget": "ngx-restangular-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
