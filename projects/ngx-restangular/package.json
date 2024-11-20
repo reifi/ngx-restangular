@@ -1,11 +1,11 @@
 {
   "name": "ngx-restangular",
-  "version": "18.0.0-reifi",
+  "version": "19.0.0-reifi",
   "description": "ngx-restangular",
   "peerDependencies": {
-    "@angular/common": "^18.0.0",
-    "@angular/core": "^18.0.0",
-    "@angular/platform-browser": "^18.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
     "rxjs": "^7.5"
   },
   "dependencies": {
