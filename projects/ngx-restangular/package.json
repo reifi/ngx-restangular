@@ -1,6 +1,6 @@
 {
   "name": "ngx-restangular",
-  "version": "19.0.0-reifi",
+  "version": "20.0.0-reifi",
   "description": "ngx-restangular",
   "peerDependencies": {
     "@angular/common": "^20.0.0",
