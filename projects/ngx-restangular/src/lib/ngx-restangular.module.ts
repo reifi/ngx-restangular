@@ -1,8 +1,8 @@
-import { ModuleWithProviders, NgModule, Optional, SkipSelf, InjectionToken } from '@angular/core';
 import { provideHttpClient, withInterceptorsFromDi, withXhr } from '@angular/common/http';
-import { RESTANGULAR, RestangularFactory } from './ngx-restangular.config';
+import { InjectionToken, ModuleWithProviders, NgModule, Optional, SkipSelf } from '@angular/core';
 import { Restangular } from './ngx-restangular';
 import { RestangularHttp } from './ngx-restangular-http';
+import { RESTANGULAR, RestangularFactory } from './ngx-restangular.config';
 
 export const CONFIG_OBJ = new InjectionToken<string>('configObj');
 
