@@ -1,12 +1,12 @@
 import { ModuleWithProviders, NgModule, Optional, SkipSelf, InjectionToken } from '@angular/core';
-import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi, withXhr } from '@angular/common/http';
 import { RESTANGULAR, RestangularFactory } from './ngx-restangular.config';
 import { Restangular } from './ngx-restangular';
 import { RestangularHttp } from './ngx-restangular-http';
 
 export const CONFIG_OBJ = new InjectionToken<string>('configObj');
 
-@NgModule({ imports: [], providers: [RestangularHttp, Restangular, provideHttpClient(withInterceptorsFromDi())] })
+@NgModule({ imports: [], providers: [RestangularHttp, Restangular, provideHttpClient(withXhr(), withInterceptorsFromDi())] })
 export class RestangularModule {
 
   constructor(@Optional() @SkipSelf() parentModule: RestangularModule) {
