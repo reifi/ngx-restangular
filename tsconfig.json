@@ -4,12 +4,11 @@
     "target": "ES2022",
     "moduleResolution": "bundler",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "typeRoots": [
-      "/node_modules/@types"
+      "./node_modules/@types"
     ],
     "skipLibCheck": true,
     "useDefineForClassFields": false
